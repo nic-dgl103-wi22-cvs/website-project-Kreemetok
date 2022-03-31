@@ -1,0 +1,257 @@
+.headerbox {
+    margin: 0 auto; 
+    padding: 15px; 
+    background-color: #111E34;
+    border-bottom: #F8972D solid 5px;
+} /** End of the Headerbox **/
+
+body {
+    margin: 0; 
+    padding: 0;
+} /** End of Body CSS **/
+
+.Yalaz {
+    color:#F8972D; 
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 300; 
+    font-size: 2rem; 
+    line-height: 0rem; 
+    text-indent: 50px; 
+    position: relative; 
+    top: 18px
+} /** Website Title Styling & Positioning **/
+
+nav p { /** Beginning of Navigation CSS **/
+    font-family: 'Montserrat', sans-serif; 
+    color: #F8972D; 
+    font-size: 1rem; 
+    line-height: 40px; 
+    position: relative; 
+    right: 20px;
+} 
+
+nav ul {
+    float: left; 
+} 
+
+nav ul li {
+    float: left; 
+    list-style: none; 
+    position: relative;
+} 
+
+.navigation {
+    margin: 0 auto; 
+    padding: 1px; 
+    width: 600px; 
+    border: 19px solid #111E34; 
+    background-color: #111E34; 
+    position: relative; 
+    left: 375px;
+} 
+
+nav ul li a {
+    font-family: 'Montserrat', sans-serif; 
+    color: #F8972D; 
+    font-size: 1rem; 
+    padding: 0px 25px; 
+    display: block; 
+    text-decoration: none;
+} 
+
+nav ul li ul {
+    display: none; 
+    position: absolute; 
+    background-color: #E5E6E6; 
+    padding: 10px;
+} 
+
+nav ul li:hover ul {
+    display: block; 
+} 
+
+nav ul li ul li a {
+    padding: 10px 17px;
+} 
+
+nav ul li ul li a:hover {
+    background-color: #f3f3f3;
+} 
+
+nav ul li ul li {
+    width: 220px;
+} /** End of All Navigation CSS **/
+
+.logoyf {
+    float: left;
+} 
+
+.section-title {
+    font-family: 'Montserrat', sans-serif; 
+    color: #111E34; 
+    font-size: 1.5rem; 
+    font-weight: 500;
+    text-align: center;
+    padding-top: 20px;
+} /** Page Title CSS **/
+
+.shortfilms-gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+ } /** Main Content CSS **/
+
+.keep-moving-forward { 
+    padding: 25px; 
+    width: 400px;
+    height: auto; 
+    background-color: #E5E6E6;
+    max-width: 350px;
+    margin: 50px 0px 25px 0px;
+} /** First Short Film box **/
+
+.keep-moving-forward {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 500; 
+    font-size: 1.1rem; 
+    line-height: 1.82rem;
+} /** End of First Short Film box CSS **/
+
+.already-seen { 
+    padding: 25px; 
+    width: 400px;
+    height: auto; 
+    background-color: #E5E6E6;
+    max-width: 350px;
+    margin: 50px 0px 25px 0px;
+} /** Second Short Film CSS **/
+
+.already-seen {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 500; 
+    font-size: 1.1rem; 
+    line-height: 1.82rem;
+} /** End of Second Short Film CSS **/
+
+.ones-inner-voice { 
+    padding: 25px; 
+    width: 400;
+    height: auto; 
+    background-color: #E5E6E6;
+    max-width: 350px;
+    margin: 50px 0px 25px 0px;
+} /** Third Short Film CSS **/
+
+.ones-inner-voice {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 500; 
+    font-size: 1.1rem; 
+    line-height: 1.82rem;
+} /** End of Third Short Film CSS **/
+
+.signifier-and-signified { 
+    padding: 25px; 
+    width: 400;
+    height: auto; 
+    background-color: #E5E6E6;
+    max-width: 350px;
+    margin: 50px 0px 25px 0px;
+} /** Fourth Short Film CSS **/
+
+.signifier-and-signified {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 500; 
+    font-size: 1.1rem; 
+    line-height: 1.82rem;
+} /** End of Fourth Short Film CSS **/
+
+.a-message { 
+    padding: 25px; 
+    width: 400;
+    height: auto; 
+    background-color: #E5E6E6;
+    max-width: 350px;
+    margin: 50px 0px 25px 0px;
+} /** Fifth Short Film CSS **/
+
+.a-message {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 500; 
+    font-size: 1.1rem; 
+    line-height: 1.82rem;
+} /** End of Fifth Short Film CSS **/
+
+.severance { 
+    padding: 25px; 
+    width: 400;
+    height: auto; 
+    background-color: #E5E6E6;
+    max-width: 350px;
+    margin: 50px 0px 25px 0px;
+} /** Sixth Short Film CSS **/
+
+.severance {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 500; 
+    font-size: 1.1rem; 
+    line-height: 1.82rem;
+} /** End of Sixth Short Film CSS **/
+
+footer { /** Beginning of Footer section **/
+    background-color: #E5E6E6;
+}
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    padding: 30px 200px;
+
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+} /** End of Footer section **/

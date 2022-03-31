@@ -1,0 +1,87 @@
+.headerbox {
+    margin: 0 auto; 
+    padding: 15px; 
+    background-color: #111E34;
+    border-bottom: #F8972D solid 5px;
+}
+
+body {
+    margin: 0; 
+    padding: 0;
+}
+
+.Yalaz {
+    color:#F8972D; 
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 300; 
+    font-size: 2rem; 
+    line-height: 0rem; 
+    text-indent: 50px; 
+    position: relative; 
+    top: 18px
+}
+
+nav p {
+    font-family: 'Montserrat', sans-serif; 
+    color: #F8972D; 
+    font-size: 1rem; 
+    line-height: 40px; 
+    position: relative; 
+    right: 20px;
+}
+
+nav ul {
+    float: left; 
+}
+
+nav ul li {
+    float: left; 
+    list-style: none; 
+    position: relative;
+}
+
+.navigation {
+    margin: 0 auto; 
+    padding: 1px; 
+    width: 600px; 
+    border: 19px solid #111E34; 
+    background-color: #111E34; 
+    position: relative; 
+    left: 375px;
+}
+
+nav ul li a {
+    font-family: 'Montserrat', sans-serif; 
+    color: #F8972D; 
+    font-size: 1rem; 
+    padding: 0px 25px; 
+    display: block; 
+    text-decoration: none;
+}
+
+nav ul li ul {
+    display: none; 
+    position: absolute; 
+    background-color: #E5E6E6; 
+    padding: 10px;
+}
+
+nav ul li:hover ul {
+    display: block; 
+}
+
+nav ul li ul li a {
+    padding: 10px 17px;
+}
+
+nav ul li ul li a:hover {
+    background-color: #f3f3f3;
+}
+
+nav ul li ul li {
+    width: 220px;
+}
+
+.logoyf {
+    float: left;
+}
